@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f2f5;
+    padding: 20px;
+}
+
+.horse {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.horse.selected {
+    background: #e3f2fd;
+}
+
+.horse-track {
+    width: 350px;
+    height: 30px;
+    margin: 10px auto;
+    position: relative;
+}
+
+.horse-icon {
+    position: absolute;
+    left: 0;
+    transition: transform 0.1s linear;
+}
+
+button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
